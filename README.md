@@ -71,7 +71,29 @@ Loss and cost functions are essential components of deep learning models that qu
 - for example, I have 20 training samples total. Let's say I use 5 random samples for one forward pass to calculate cumulative error
 - After that  adjust weights.
 
-<b> For  Implementation, Please Visit the [5.stocasticated_descent_batch_Gradient_and_mini_batch_gradient.ipynb](https://github.com/RNVALA/Deep-Learning-with-tensorflow-2.0-keras-and-python/blob/master/5.stocasticated_descent_batch_Gradient_and_mini_batch_gradient.ipynb)
+<b> For  Implementation, Please Visit the [5.stocasticated_descent_batch_Gradient_and_mini_batch_gradient.ipynb](https://github.com/RNVALA/Deep-Learning-with-tensorflow-2.0-keras-and-python/blob/master/5.stocasticated_descent_batch_Gradient_and_mini_batch_gradient.ipynb) </b>
+
+## File:-6_image_c;assification_and_understand_the_importance_of_gpu.ipynb
+### Project:- Image Classification using Artificial neural network and understanding the importance of gpu
+
+image classification using Artificial Neural Networks (ANN) on the CIFAR-10 dataset.
+CIFAR-10 is a popular benchmark dataset consisting of 60,000 32x32 color images across 10 classes.
+![small_images](https://github.com/RNVALA/Deep-Learning-with-tensorflow-2.0-keras-and-python/assets/112707550/b8895184-42a8-4d44-8d22-7ed8f2edf55c)
+
+Here,50000 images we are using as train set and 10000 images are used as a test set.
+step for classification
+
+- Install required libraries
+- Load the CIFAR-10 dataset and examine its shape.
+- Visualize sample images from the dataset.
+- preprocess the data by scaling the pixel to the range 0 to 1
+- convert the data to categorical format using keras onehot encoding api
+- Define the ANN model architecture
+- compile the model by specifying the optimizer,loss function and evaluate the metric.
+- Train the model on the trainng data
+- make predictioon on the test set and evaluate the model's performance.
+<b> For  Implementation, Please Visit the [6_image_c;assification_and_understand_the_importance_of_gpu.ipynb](https://github.com/RNVALA/Deep-Learning-with-tensorflow-2.0-keras-and-python/blob/master/6_image_c%3Bassification_and_understand_the_importance_of_gpu.ipynb)</b>
+
 
 
 
