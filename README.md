@@ -75,9 +75,14 @@ Loss and cost functions are essential components of deep learning models that qu
 
 ## File:-6_image_c;assification_and_understand_the_importance_of_gpu.ipynb
 ### Project:- Image Classification using Artificial neural network and understanding the importance of gpu
+#### What is Artificial Neural Network
+- An artificial neural network (ANN) is a computational model that is inspired by the structure and function of biological neural networks, such as the human brain. It is composed of a large number of interconnected processing nodes, called neurons, which are organized into layers.
+- Each neuron in the network receives input from other neurons in the previous layer, processes the information, and then passes the output to the next layer of neurons. The output of the final layer is the network's prediction or decision based on the input data.
+- ANNs are typically used for tasks such as classification, regression, and pattern recognition. They are capable of learning from data by adjusting the strength of the connections between neurons, a process called training or learning. This allows ANNs to improve their performance on a specific task as they receive more training data.
 
 image classification using Artificial Neural Networks (ANN) on the CIFAR-10 dataset.
 CIFAR-10 is a popular benchmark dataset consisting of 60,000 32x32 color images across 10 classes.
+
 ![small_images](https://github.com/RNVALA/Deep-Learning-with-tensorflow-2.0-keras-and-python/assets/112707550/b8895184-42a8-4d44-8d22-7ed8f2edf55c)
 
 Here,50000 images we are using as train set and 10000 images are used as a test set.
@@ -94,7 +99,14 @@ step for classification
 - make predictioon on the test set and evaluate the model's performance.
 <b> For  Implementation, Please Visit the [6_image_c;assification_and_understand_the_importance_of_gpu.ipynb](https://github.com/RNVALA/Deep-Learning-with-tensorflow-2.0-keras-and-python/blob/master/6_image_c%3Bassification_and_understand_the_importance_of_gpu.ipynb)</b>
 
+## File:-7_Artificial Neural network Customer churn prediction.ipynb
+### Project:-Customer Churn Prediction using Artificial neural network
+Customer churn refers to the phenomenon where customers stop using the services of a company. Predicting customer churn is crucial for businesses to identify potential at-risk customers and take proactive measures to retain them. This project aims to build a machine learning model that predicts customer churn in a telecommunications company based on historical customer data.
 
+The dataset used for this project contains various features such as customer recharge plans, usage patterns, and service details. By analyzing this data and training a predictive model, we can predict whether a customer is likely to churn or not.
+
+
+<b> For  detailed Implementation, Please Visit the [7_Artificial Neural network Customer churn prediction.ipynb](https://github.com/RNVALA/Deep-Learning-with-tensorflow-2.0-keras-and-python/blob/master/7_Artificial%20Neural%20network%20Customer%20churn%20prediction.ipynb)</b>
 
 
   
