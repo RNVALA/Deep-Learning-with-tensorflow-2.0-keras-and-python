@@ -71,6 +71,7 @@ Loss and cost functions are essential components of deep learning models that qu
 - for example, I have 20 training samples total. Let's say I use 5 random samples for one forward pass to calculate cumulative error
 - After that  adjust weights.
 
+<b> For  Implementation, Please Visit the [5.stocasticated_descent_batch_Gradient_and_mini_batch_gradient.ipynb](https://github.com/RNVALA/Deep-Learning-with-tensorflow-2.0-keras-and-python/blob/master/5.stocasticated_descent_batch_Gradient_and_mini_batch_gradient.ipynb)
 
 
 
