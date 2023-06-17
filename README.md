@@ -6,6 +6,7 @@ This project provides an overview of neural networks, TensorFlow, Keras, and PyT
 ## Neural Network
 
 A neural network is a machine learning model inspired by the human brain. It consists of interconnected artificial neurons that can recognize patterns, make predictions, and perform various tasks.
+![1_bhFifratH9DjKqMBTeQG5A](https://github.com/RNVALA/Deep-Learning-with-tensorflow-2.0-keras-and-python/assets/112707550/fdedd05f-21cd-4220-8364-7e8ff1478722)
 
 ## TensorFlow
 
@@ -37,7 +38,13 @@ The neural network model used in this project is a simple feedforward neural net
 #### Loss and Cost Functions
 
 Loss and cost functions are essential components of deep learning models that quantify the error or discrepancy between the predicted output and the target output. They guide the learning process by providing optimization objectives to minimize the error during training.
+- Sparse_Categorical_crossentropy
+- binary_crossentropy
+- categorical_crossentropy
+- mean_absolute_error
+- mean_squared_error
 
+<b> For  Implementation, Please Visit the [Loss and cost function.ipynb](https://github.com/RNVALA/Deep-Learning-with-tensorflow-2.0-keras-and-python/blob/master/3.Loss%20and%20cost%20function.ipynb)
 
 
 
