@@ -211,3 +211,20 @@ Some common data augmentation techniques include:
 Randomly applying combinations of these transformations For example, in image classification tasks, data augmentation can be used to generate new training images by randomly flipping, rotating, or cropping the original images. This can help the model learn to recognize the same object from different angles and orientations.  
 
 <b> For Detailed Implementation, Please Visit the [12_flower classification using data_augmentation.ipynb](https://github.com/RNVALA/Deep-Learning-with-tensorflow-2.0-keras-and-python/blob/master/12_flower%20classification%20using%20data_augmentation.ipynb) </b>
+
+## File:-13_cnn_transfer_learning.ipynb
+### What is Transfer Learning
+
+Transfer learning is a machine learning technique where a pre-trained model developed for one task is reused as a starting point for a different but related task. Instead of training a model from scratch on a new dataset, transfer learning allows us to leverage the knowledge learned from a large and relevant dataset to solve a different problem more efficiently, even with limited data.
+
+In transfer learning, the pre-trained model, often a deep neural network, acts as a feature extractor. The model's initial layers, which capture low-level features like edges and textures, are kept intact, while the later layers are replaced or retrained to adapt to the new task. By doing so, the model can learn high-level features specific to the new dataset while benefiting from the previously learned general features.
+
+#### The advantages of transfer learning include:
+
+Faster training: Pre-trained models have already undergone time-consuming training on large datasets, so transfer learning allows us to save significant training time.
+
+Better performance with limited data: When the new task has a limited amount of labeled data, transfer learning helps in preventing overfitting by using the general features learned from a larger dataset.
+
+Improved generalization: The pre-trained model has learned from a diverse dataset, which helps in capturing general patterns and improves the model's ability to generalize to new, unseen data.
+
+<b> For Detailed Implementation, Please Visit the [13_cnn_transfer_learning.ipynb](https://github.com/RNVALA/Deep-Learning-with-tensorflow-2.0-keras-and-python/blob/master/13_cnn_transfer_learning.ipynb) </b>
