@@ -186,14 +186,28 @@ Unlike fully connected networks, CNNs leverage sparse connectivity, meaning that
 ### Dataset Description
 The CIFAR-10 dataset consist of 60000 32*32 color images in 10 different classes. It is divided into a training set of 50,000 images and the test set of 10,000 images. The task is to classify each image into one of the following categories✈️ airplane,automobile,bird,cat,deer,dog,frog,horse,ship or truck.
 #### Model Architecture
-1.Convolutional layer with 32 filters and a kernel size of (3, 3), using ReLU activation.
-2.MaxPooling layer with a pool size of (2, 2).
-3.Convolutional layer with 64 filters and a kernel size of (3, 3), using ReLU activation.
-4.MaxPooling layer with a pool size of (2, 2).
-5.Flatten layer to convert the 2D feature maps into a 1D feature vector.
-6.Dense layer with 64 units and ReLU activation.
-7.Dense layer with 10 units (corresponding to the 10 classes) and softmax activation for classification.
+1. Convolutional layer with 32 filters and a kernel size of (3, 3), using ReLU activation.
+2. MaxPooling layer with a pool size of (2, 2).
+3. Convolutional layer with 64 filters and a kernel size of (3, 3), using ReLU activation.
+4. MaxPooling layer with a pool size of (2, 2).
+5. Flatten layer to convert the 2D feature maps into a 1D feature vector.
+6. Dense layer with 64 units and ReLU activation.
+7. Dense layer with 10 units (corresponding to the 10 classes) and softmax activation for classification.
 
-<b> For more Information, Please Visit the [11_Image_classification_using_convolutional_neural_network.ipynb](https://github.com/RNVALA/Deep-Learning-with-tensorflow-2.0-keras-and-python/blob/master/11_Image_classification_using_convolutional_neural_network.ipynb) </b>
+<b> For Detailed Implementation, Please Visit the [11_Image_classification_using_convolutional_neural_network.ipynb](https://github.com/RNVALA/Deep-Learning-with-tensorflow-2.0-keras-and-python/blob/master/11_Image_classification_using_convolutional_neural_network.ipynb) </b>
 
+## File:-12_flower classification using data_augmentation.ipynb
+## Project
+#### What is Data Augmentation
+Data augmentation is a technique commonly used in machine learning and computer vision to artificially increase the size of a dataset by applying various transformations to the original data. The idea is to generate new examples that are similar to the original data, but with variations that make the model more robust to different scenarios and improve its generalization performance.
 
+Some common data augmentation techniques include:
+
+- Flipping and rotating images
+- Cropping and resizing images
+- Adding noise or distortion to images
+- Changing the brightness, contrast, or color of images
+  
+Randomly applying combinations of these transformations For example, in image classification tasks, data augmentation can be used to generate new training images by randomly flipping, rotating, or cropping the original images. This can help the model learn to recognize the same object from different angles and orientations.  
+
+<b> For Detailed Implementation, Please Visit the [12_flower classification using data_augmentation.ipynb](https://github.com/RNVALA/Deep-Learning-with-tensorflow-2.0-keras-and-python/blob/master/12_flower%20classification%20using%20data_augmentation.ipynb) </b>
