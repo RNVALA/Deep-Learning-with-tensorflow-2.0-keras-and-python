@@ -20,7 +20,7 @@ Keras is a high-level neural network API that runs on top of TensorFlow and othe
 
 PyTorch is a deep learning framework developed by Facebook. It offers a dynamic computational graph, which allows for more flexibility in model construction and training. PyTorch provides excellent support for tensor computation, has a clean and pythonic syntax, and is favored by researchers and data scientists who prefer a more dynamic and intuitive approach to building and experimenting with neural networks.
 
-# File:- neurak netwrork and its implementation
+# File:- neural netwrork and its implementation
 ## project1 :-MNIST Number Identification using TensorFlow
 
 This project demonstrates how to use TensorFlow to train a neural network on the MNIST dataset for number identification.
@@ -29,12 +29,14 @@ This project demonstrates how to use TensorFlow to train a neural network on the
 
 The MNIST dataset is a collection of 60,000 training images and 10,000 test images of handwritten digits (0 to 9). Each image is a grayscale image of size 28x28 pixels.
 ![digits_nn](https://github.com/RNVALA/Deep-Learning-with-tensorflow-2.0-keras-and-python/assets/112707550/046d9bb3-a28c-44a8-a3de-8e38893f77af)
+
 ## Model Architecture
 
 The neural network model used in this project is a simple feedforward neural network with fully connected layers. The architecture consists of an input layer with 784 neurons (28x28 pixels flattened), a hidden layer with a configurable number of neurons, and an output layer with 10 neurons corresponding to the 10 possible digit classes (0 to 9).
 <b> For  Implementation, Please Visit the [neurak netwrork and its implementation](https://github.com/RNVALA/Deep-Learning-with-tensorflow-2.0-keras-and-python/blob/master/neural%20network%20and%20its%20implementatioln.ipynb)
 
 ## File:-3.Loss and cost function.ipynb
+
 ### Loss and Cost Functions
 
 Loss and cost functions are essential components of deep learning models that quantify the error or discrepancy between the predicted output and the target output. They guide the learning process by providing optimization objectives to minimize the error during training.
@@ -111,6 +113,8 @@ The dataset used for this project contains various features such as customer rec
 
 ## File:-8_Dropout Regularization.ipynb
 ### Project:-The task is to train a network to discriminate between sonar signals bounces off a metal cylinder and those bounced off a roughly cylindrical rock
+This project aims to classify sonar signals as either rocks (R) or mines (M) using a neural network model. The dataset used for training and testing the model is the Sonar Dataset.
+
 #### What is Dropout?
 Dropout is a regularization technique that helps prevent overfitting in neural networks. It works by randomly setting a fraction of the input units (neurons) to 0 at each update during training time. This means that these units are "dropped out" temporarily from the network, and their activations are ignored during that particular update.
 ![1_QrzcQNS2GS7J8wij0H8ANw](https://github.com/RNVALA/Deep-Learning-with-tensorflow-2.0-keras-and-python/assets/112707550/76e7453e-fd54-421b-9828-727bdbc6a94f)
@@ -121,6 +125,61 @@ the sonar signal dataset is being used to discriminate between signals bounced o
 
 <b> For  detailed Implementation, Please Visit the [8_Dropout Regularization on sonar dataset.ipynb](https://github.com/RNVALA/Deep-Learning-with-tensorflow-2.0-keras-and-python/blob/master/8_Dropout%20Regularization.ipynb)</b>
 
+## File:-9_balancing ,unbalance dataset.ipynb
+
+Imbalanced datasets are common in various domains such as customer churn rate, device failure prediction, and cancer prediction. The following methods can be used to address the class imbalance problem:
+
+#### 1. Under-sampling the Majority Class
+
+One approach is to randomly select a subset of samples from the majority class to balance the dataset. For example, you can randomly pick 1000 samples from the majority class (green) when you have 99000 samples and combine them with the minority class (red) samples to train the model.
+
+#### 2. Over-sampling the Minority Class by Duplication
+
+Another technique involves duplicating samples from the minority class to increase its representation. For instance, you can duplicate 1000 samples from the minority class (red) 99 times to match the number of samples in the majority class (green) and then train the model.
+
+#### 3. Over-sampling the Minority Class using SMOTE
+
+SMOTE (Synthetic Minority Over-sampling Technique) is a popular method for generating synthetic examples from the minority class. It creates synthetic samples by applying the k-nearest neighbor algorithm. This technique helps in increasing the diversity of the minority class.
+
+#### 4. Ensemble Method
+
+Ensemble methods can also be effective in handling imbalanced datasets. For example, if you have 3000 samples in the majority class (green) and 1000 samples in the minority class (red), you can create batches of 1000 green samples combined with 1000 red samples. Then, you can take the majority vote of the three batches to make predictions.
+
+#### 5. Focal Loss
+
+Focal Loss is a modification to the standard cross-entropy loss that helps address the class imbalance problem. It assigns more weight to the minority class samples and penalizes the majority class samples during the loss calculation. This approach can be particularly useful when there is a severe class imbalance.
+
+<b> <b> For  detailed Implementation, Please Visit the [9_balancing ,unbalance dataset.ipynb](https://github.com/RNVALA/Deep-Learning-with-tensorflow-2.0-keras-and-python/blob/master/9_balancing%20%2Cunbalance%20dataset.ipynb) </b>
+
+## File:-10_convolutional neural network.ipynb
+
+#### What is Convolutional Network(CNN)
+A Convolutional Neural Network (CNN) is a type of deep learning algorithm designed for analyzing visual data, particularly images.
+
+#### Introduction
+
+In image classification, CNNs excel at learning representations directly from raw pixel data. They leverage the concept of convolutional layers, which utilize filters or feature detectors to identify important patterns or features within an image. The process involves convolving these filters over the input image to produce feature maps, which are then passed through subsequent layers for further processing and classification.
+
+## Feature Extraction and Classification
+
+The CNN architecture consists of two main parts: feature extraction and classification.
+
+### Feature Extraction
+
+In the feature extraction stage, the CNN applies various filters or feature detectors to the input image to capture different types of visual patterns. These filters act as feature detectors and identify specific characteristics, such as edges, textures, or shapes. Each filter is convolved with the input image, and the resulting feature maps highlight the presence of relevant features.
+
+### Classification
+
+Once the features are extracted, the CNN flattens the feature maps and passes them through fully connected layers for classification. Additional layers, such as ReLU (Rectified Linear Unit) activation and pooling layers, are often utilized to introduce non-linearity and reduce the spatial dimensions of the feature maps, respectively. Finally, the output is passed through a softmax layer to obtain class probabilities.
+
+## Benefits of Convolutional Neural Networks
+
+### Sparse Connectivity and Parameter Sharing
+
+Unlike fully connected networks, CNNs leverage sparse connectivity, meaning that each neuron is only connected to a small region of the input data. This property reduces the number of parameters and enables the network to learn more efficiently. Additionally, CNNs utilize parameter sharing, where the same filter is applied across different regions of the input image. This sharing of parameters helps in detecting features regardless of their location within the image.
+
+
+<b> For more Information, Please Visit the [10_convolutional neural network.ipynb](https://github.com/RNVALA/Deep-Learning-with-tensorflow-2.0-keras-and-python/blob/master/10_convolutional%20neural%20network.ipynb) </b>
 
 
 
