@@ -160,27 +160,40 @@ A Convolutional Neural Network (CNN) is a type of deep learning algorithm design
 
 In image classification, CNNs excel at learning representations directly from raw pixel data. They leverage the concept of convolutional layers, which utilize filters or feature detectors to identify important patterns or features within an image. The process involves convolving these filters over the input image to produce feature maps, which are then passed through subsequent layers for further processing and classification.
 
-## Feature Extraction and Classification
+#### Feature Extraction and Classification
 
 The CNN architecture consists of two main parts: feature extraction and classification.
 
-### Feature Extraction
+#### Feature Extraction
 
 In the feature extraction stage, the CNN applies various filters or feature detectors to the input image to capture different types of visual patterns. These filters act as feature detectors and identify specific characteristics, such as edges, textures, or shapes. Each filter is convolved with the input image, and the resulting feature maps highlight the presence of relevant features.
 
-### Classification
+#### Classification
 
 Once the features are extracted, the CNN flattens the feature maps and passes them through fully connected layers for classification. Additional layers, such as ReLU (Rectified Linear Unit) activation and pooling layers, are often utilized to introduce non-linearity and reduce the spatial dimensions of the feature maps, respectively. Finally, the output is passed through a softmax layer to obtain class probabilities.
 
-## Benefits of Convolutional Neural Networks
+### Benefits of Convolutional Neural Networks
 
-### Sparse Connectivity and Parameter Sharing
+#### Sparse Connectivity and Parameter Sharing
 
 Unlike fully connected networks, CNNs leverage sparse connectivity, meaning that each neuron is only connected to a small region of the input data. This property reduces the number of parameters and enables the network to learn more efficiently. Additionally, CNNs utilize parameter sharing, where the same filter is applied across different regions of the input image. This sharing of parameters helps in detecting features regardless of their location within the image.
 
 
 <b> For more Information, Please Visit the [10_convolutional neural network.ipynb](https://github.com/RNVALA/Deep-Learning-with-tensorflow-2.0-keras-and-python/blob/master/10_convolutional%20neural%20network.ipynb) </b>
 
+## File:-11_Image_classification_using_convolutional_neural_network.ipynb
+## Project-This Project aims to perform image classification on the CIFAR-10 dataset using a convolutional Neural Network (CNN) Implemented in TensorFlow.
+### Dataset Description
+The CIFAR-10 dataset consist of 60000 32*32 color images in 10 different classes. It is divided into a training set of 50,000 images and the test set of 10,000 images. The task is to classify each image into one of the following categories✈️ airplane,automobile,bird,cat,deer,dog,frog,horse,ship or truck.
+#### Model Architecture
+1.Convolutional layer with 32 filters and a kernel size of (3, 3), using ReLU activation.
+2.MaxPooling layer with a pool size of (2, 2).
+3.Convolutional layer with 64 filters and a kernel size of (3, 3), using ReLU activation.
+4.MaxPooling layer with a pool size of (2, 2).
+5.Flatten layer to convert the 2D feature maps into a 1D feature vector.
+6.Dense layer with 64 units and ReLU activation.
+7.Dense layer with 10 units (corresponding to the 10 classes) and softmax activation for classification.
 
+<b> For more Information, Please Visit the [11_Image_classification_using_convolutional_neural_network.ipynb](https://github.com/RNVALA/Deep-Learning-with-tensorflow-2.0-keras-and-python/blob/master/11_Image_classification_using_convolutional_neural_network.ipynb) </b>
 
 
