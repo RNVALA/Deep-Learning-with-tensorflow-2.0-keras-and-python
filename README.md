@@ -109,7 +109,18 @@ The dataset used for this project contains various features such as customer rec
 <b> For  detailed Implementation, Please Visit the [7_Artificial Neural network Customer churn prediction.ipynb](https://github.com/RNVALA/Deep-Learning-with-tensorflow-2.0-keras-and-python/blob/master/7_Artificial%20Neural%20network%20Customer%20churn%20prediction.ipynb)</b>
 
 
-  
+## File:-8_Dropout Regularization.ipynb
+### Project:-The task is to train a network to discriminate between sonar signals bounces off a metal cylinder and those bounced off a roughly cylindrical rock
+#### What is Dropout?
+Dropout is a regularization technique that helps prevent overfitting in neural networks. It works by randomly setting a fraction of the input units (neurons) to 0 at each update during training time. This means that these units are "dropped out" temporarily from the network, and their activations are ignored during that particular update.
+![1_QrzcQNS2GS7J8wij0H8ANw](https://github.com/RNVALA/Deep-Learning-with-tensorflow-2.0-keras-and-python/assets/112707550/76e7453e-fd54-421b-9828-727bdbc6a94f)
+By randomly dropping out units, dropout prevents neurons from relying too much on the presence of any one input feature. It forces the network to learn more robust representations by preventing co-adaptation of neurons. In other words, dropout helps to ensure that no single neuron becomes too specialized and overly dependent on a particular feature or input. This reduces the chances of overfitting, as the network is forced to distribute its learning across a wider range of features.
+
+### Project Overview
+the sonar signal dataset is being used to discriminate between signals bounced off a metal cylinder and those bounced off a roughly cylindrical rock. By applying dropout during training, the network is encouraged to learn more generalized features and avoid overfitting to specific training examples. This improves the model's ability to generalize and make accurate predictions on unseen data.
+
+<b> For  detailed Implementation, Please Visit the [8_Dropout Regularization on sonar dataset.ipynb](https://github.com/RNVALA/Deep-Learning-with-tensorflow-2.0-keras-and-python/blob/master/8_Dropout%20Regularization.ipynb)</b>
+
 
 
 
