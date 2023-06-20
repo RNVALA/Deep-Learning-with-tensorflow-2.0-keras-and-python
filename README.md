@@ -33,7 +33,8 @@ The MNIST dataset is a collection of 60,000 training images and 10,000 test imag
 ## Model Architecture
 
 The neural network model used in this project is a simple feedforward neural network with fully connected layers. The architecture consists of an input layer with 784 neurons (28x28 pixels flattened), a hidden layer with a configurable number of neurons, and an output layer with 10 neurons corresponding to the 10 possible digit classes (0 to 9).
-<b> For  Implementation, Please Visit the [neurak netwrork and its implementation](https://github.com/RNVALA/Deep-Learning-with-tensorflow-2.0-keras-and-python/blob/master/neural%20network%20and%20its%20implementatioln.ipynb)
+
+For  Implementation, Please Visit the [neurak netwrork and its implementation](https://github.com/RNVALA/Deep-Learning-with-tensorflow-2.0-keras-and-python/blob/master/neural%20network%20and%20its%20implementatioln.ipynb)
 
 ## File:-3.Loss and cost function.ipynb
 
