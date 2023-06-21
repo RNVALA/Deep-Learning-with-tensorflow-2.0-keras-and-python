@@ -1,7 +1,7 @@
 # Deep-Learning-with-tensorflow-2.0-keras-and-python
 # Neural Network Overview
 
-This project provides an overview of neural networks, TensorFlow, Keras, and PyTorch.
+This project provides an overview of neural networks, TensorFlow, Keras.
 
 ## Neural Network
 
