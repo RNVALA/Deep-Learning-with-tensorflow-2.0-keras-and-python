@@ -6,7 +6,8 @@ This project provides an overview of neural networks, TensorFlow, Keras.
 ## Neural Network
 
 A neural network is a machine learning model inspired by the human brain. It consists of interconnected artificial neurons that can recognize patterns, make predictions, and perform various tasks.
-![1_bhFifratH9DjKqMBTeQG5A](https://github.com/RNVALA/Deep-Learning-with-tensorflow-2.0-keras-and-python/assets/112707550/fdedd05f-21cd-4220-8364-7e8ff1478722)
+
+![1687385782950](https://github.com/RNVALA/Deep-Learning-with-tensorflow-2.0-keras-and-python/assets/112707550/f43da3b2-1042-4399-ab50-6d214e32600d)
 
 ## TensorFlow
 
